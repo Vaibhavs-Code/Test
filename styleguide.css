@@ -1,0 +1,87 @@
+:root {
+    --body-regular-font-family: "SF Pro", Helvetica;
+    --body-regular-font-weight: 400;
+    --body-regular-font-size: 17px;
+    --body-regular-letter-spacing: -0.4300000071525574px;
+    --body-regular-line-height: 22px;
+    --body-regular-font-style: normal;
+    --body-emphasized-font-family: "SF Pro", Helvetica;
+    --body-emphasized-font-weight: 400;
+    --body-emphasized-font-size: 17px;
+    --body-emphasized-letter-spacing: -0.4300000071525574px;
+    --body-emphasized-line-height: 22px;
+    --body-emphasized-font-style: normal;
+    --system-colors-colors-blue: rgba(0, 122, 255, 1);
+    --system-colors-labels-primary: rgba(0, 0, 0, 1);
+    --system-colors-labels-quaternary: rgba(60, 60, 67, 0.18);
+    --system-colors-labels-secondary: rgba(60, 60, 67, 0.6);
+    --system-colors-miscellaneous-bar-border: rgba(0, 0, 0, 0.3);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.12);
+  }
+  
+  /*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-system-colors-mode="light">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+  
+  [data-system-colors-mode="light"] {
+    --system-colors-colors-blue: rgba(0, 122, 255, 1);
+    --system-colors-labels-primary: rgba(0, 0, 0, 1);
+    --system-colors-labels-quaternary: rgba(60, 60, 67, 0.18);
+    --system-colors-labels-secondary: rgba(60, 60, 67, 0.6);
+    --system-colors-miscellaneous-bar-border: rgba(0, 0, 0, 0.3);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.12);
+  }
+  
+  [data-system-colors-mode="dark"] {
+    --system-colors-colors-blue: rgba(10, 132, 255, 1);
+    --system-colors-labels-primary: rgba(255, 255, 255, 1);
+    --system-colors-labels-quaternary: rgba(235, 235, 245, 0.16);
+    --system-colors-labels-secondary: rgba(235, 235, 245, 0.6);
+    --system-colors-miscellaneous-bar-border: rgba(255, 255, 255, 0.15);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.24);
+  }
+  
+  [data-system-colors-mode="dark-elevated"] {
+    --system-colors-colors-blue: rgba(10, 132, 255, 1);
+    --system-colors-labels-primary: rgba(255, 255, 255, 1);
+    --system-colors-labels-quaternary: rgba(235, 235, 245, 0.16);
+    --system-colors-labels-secondary: rgba(235, 235, 245, 0.6);
+    --system-colors-miscellaneous-bar-border: rgba(255, 255, 255, 0.15);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.24);
+  }
+  
+  [data-system-colors-mode="IC-light"] {
+    --system-colors-colors-blue: rgba(0, 64, 221, 1);
+    --system-colors-labels-primary: rgba(0, 0, 0, 1);
+    --system-colors-labels-quaternary: rgba(60, 60, 67, 0.55);
+    --system-colors-labels-secondary: rgba(60, 60, 67, 0.8);
+    --system-colors-miscellaneous-bar-border: rgba(0, 0, 0, 0.3);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.2);
+  }
+  
+  [data-system-colors-mode="IC-dark"] {
+    --system-colors-colors-blue: rgba(64, 156, 255, 1);
+    --system-colors-labels-primary: rgba(255, 255, 255, 1);
+    --system-colors-labels-quaternary: rgba(235, 235, 245, 0.4);
+    --system-colors-labels-secondary: rgba(235, 235, 245, 0.7);
+    --system-colors-miscellaneous-bar-border: rgba(255, 255, 255, 0.15);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.32);
+  }
+  
+  [data-system-colors-mode="IC-dark-elevated"] {
+    --system-colors-colors-blue: rgba(64, 156, 255, 1);
+    --system-colors-labels-primary: rgba(255, 255, 255, 1);
+    --system-colors-labels-quaternary: rgba(235, 235, 245, 0.4);
+    --system-colors-labels-secondary: rgba(235, 235, 245, 0.7);
+    --system-colors-miscellaneous-bar-border: rgba(255, 255, 255, 0.15);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.32);
+  }
+  
